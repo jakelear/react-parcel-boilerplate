@@ -1,0 +1,28 @@
+{
+  "name": "react-parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "React boilerplate using Parcel for compilation",
+  "main": "src/App.js",
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.12.1",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "parcel-bundler": "^1.12.1",
+    "prettier": "^1.16.1"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jake Lear",
+  "license": "MIT"
+}
